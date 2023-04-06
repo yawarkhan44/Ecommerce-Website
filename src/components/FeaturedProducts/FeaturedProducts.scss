@@ -1,0 +1,28 @@
+.featuredProducts{
+    margin: 100px 200px;
+
+    @media screen and (max-width: 1000px) {
+        margin: 20px;
+      }
+
+    .topSection{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        h1{
+            text-transform: capitalize;
+            @media screen and (max-width: 1000px) {
+                font-size: 20px;
+              }
+        }
+    }
+
+    .bottomSection{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+}

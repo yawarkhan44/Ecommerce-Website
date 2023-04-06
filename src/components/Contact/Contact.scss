@@ -1,0 +1,42 @@
+.contact{
+    background-color: burlywood;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+
+    @media screen and (max-width: 1000px) {
+        justify-content: flex-start;
+      }
+    .contactWrapper{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        input{
+            padding: 10px;
+            border: none;
+
+        }
+        
+        button{
+            padding: 10px;
+            color: white;
+            background-color: rgb(101, 99, 99);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .icons{
+            display: flex;
+            gap: 10px;
+        }
+    }
+}

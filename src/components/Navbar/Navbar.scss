@@ -29,6 +29,12 @@
             flex: 1;
             font-size: 30px;
             letter-spacing: 2px;
+            @media screen and (max-width: 1000px) {
+                font-size: 25px;
+              }
+              @media screen and (max-width: 280px) {
+                display: none;
+              }
         }
         .navbarRight{
             display: flex;
