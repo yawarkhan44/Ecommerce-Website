@@ -48,8 +48,6 @@ const Product = () => {
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               repr
-            ehenderit in voluptate velit esse cillum dolore eu fug
-
           </p>
         </div>
       </div>
